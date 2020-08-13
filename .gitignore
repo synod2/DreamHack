@@ -1,0 +1,4 @@
+*.txt
+core
+git.sh
+.gdb_history
